@@ -1,0 +1,656 @@
+body{
+	margin:0% 5% 0% 5%;
+	background-color: #000345;
+	background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+#container{
+	position:relative;
+}
+
+.first_row{
+
+	position:relative;
+	width:85%;
+	height:40%;
+	align-content: center
+}	
+
+#second_bar{
+	position:absolute;
+	background-color: #a35f24;;
+	background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+	left:32%;
+	width:87%;
+	height:100%;
+	
+}
+
+.menu{
+	display:inline-block;
+}
+
+
+#name{
+	position:absolute;
+	background-color: #a35f24;;
+	background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+	width:30%;
+	height:100%;
+	text-transform:uppercase;
+	display:flex;
+}
+
+#maroof{
+	margin:auto;
+	color:black;
+	font-size:200%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: justify;
+}
+
+
+
+#about{
+	position:absolute;
+	left:10%;
+	top:12%;
+	font-size:150%;
+}
+#about:link{
+	text-decoration:none;
+	background-color:rgb(112, 62, 62);
+	padding:5%;
+	display:inline-block;
+	color:gray;
+}
+#about:active{
+	color:blue;
+}
+#about:visited{
+	color:green;
+}
+#about:hover{
+	background-color:#CC9999;
+	color:greenyellow;
+	
+}
+
+
+#merits{
+	position:absolute;
+	left:30%;
+	top:12%;
+	font-size:150%;
+}
+#merits:link{
+	text-decoration:none;
+	background-color:rgb(112, 62, 62);
+	padding:5%;
+	display:inline-block;
+	color:gray;
+}
+#merits:active{
+	color:blue;;
+}
+#merits:visited{
+	color:green;
+}
+#merits:hover{
+	background-color:#CC9999;
+	color:greenyellow
+}
+
+
+#gallery{
+	position:absolute;
+	left:50%;
+	top:12%;
+	font-size:150%;
+}
+#gallery:link{
+	text-decoration:none;
+	background-color:rgb(112, 62, 62);
+	padding:5% 4.2%;
+	display:inline-block;
+	color:gray;
+}
+#gallery:active{
+	color:blue;
+}
+#gallery:visited{
+	color:green;
+}
+#gallery:hover{
+	background-color:#CC9999;
+	color:greenyellow;
+	
+}
+
+#contact{
+	position:absolute;
+	left:70%;
+	top:12%;
+	font-size:150%;
+}
+#contact:link{
+	text-decoration:none;
+	background-color:rgb(112, 62, 62);
+	padding:5% 4.2%;
+	display:inline-block;
+	color:gray;
+}
+#contact:active{
+	color:blue;
+}
+#contact:visited{
+	color:green;
+}
+#contact:hover{
+	background-color:#CC9999;
+	color:greenyellow;
+	
+}
+.second_row{
+	width:100%;
+	position:relative;
+	height:100%;
+	top:5%;
+	display:inline;
+}
+
+#profile_pic{
+	position:relative;
+	width:50%;
+	height:100%;
+	top:5%;
+}
+
+#profile_pic img{
+	width:86%;
+	height:90%;
+}
+
+#brief{
+	position:relative;
+	left:116%;
+	width:86%;
+	height:90%;
+	background-color: #398f70;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+
+	top:-90%;
+}
+
+#brief_style{
+	position:absolute;
+	right:1%;
+	width:80%;
+	height:25%;
+	font-family:Arial;
+	font-size:150%;
+	padding:10%;
+}
+
+.third_row{
+	width:99%;
+	background-color:#FF6347;
+	height:45%;
+	position:relative;
+	top:-93%;
+	display:flex;
+}
+
+.third_row img{
+	width:80%;
+	height:89%;
+}
+#icon1{
+	width:80%;
+	height:100%;
+	top:5%;
+	margin-left:6%;
+}
+
+#icon2{
+	width:80%;
+	height:100%;
+	margin:0 auto;
+}
+
+#icon3{
+	width:80%;
+	height:100%;
+	margin-right:0%;
+}
+
+.third_row p{
+	font-family:Arial Rounded MT Bold;
+	position:relative;
+	top:-15%;
+}
+
+#icon1 a:link,a:visited,a:active{
+	text-decoration:none;
+	font-size:150%;
+	color:white;
+}
+
+#icon1 a:hover{
+	color:red;
+	opacity:0.7;
+}
+
+#icon2 a:link,a:visited,a:active{
+	text-decoration:lemonchiffon;
+	font-size:150%;
+	color:white;
+}
+
+#icon2 a:hover{
+	color:red;
+	opacity:0.7;
+}
+
+#icon3 a:link,a:visited,a:active{
+	text-decoration:lemonchiffon;
+	font-size:150%;
+	color:white;
+}
+
+#icon3 a:hover{
+	color:red;
+	opacity:0.7;
+}
+
+
+.row_4{
+	position:relative;
+	height:110%;
+	width:100%;
+	top:-90%;
+	
+}
+
+#row4_left_top{
+	width:40%;
+	height:25%;
+	margin-top:1%;
+	background-color: #005ea6;
+	background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+}
+#merits_style{
+	font-size:150%;
+	left:2%;
+	top:2%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#row4_left_bottom{
+	position:absolute;
+	width:40%;
+	height:30%;
+	background-color: #005ea6;
+	background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+	top:33%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#row4_right{
+	position:absolute;
+	width:57%;
+	right:-11%;
+	height:150%;
+	top:0%;
+}
+
+.row_4 img{
+	height: 420px;
+    width: 540px;
+}
+.row_5{
+	background-color: #e6c4da;
+	background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+	border-radius: 20px;
+	width:100%;
+	height:20%;
+	position:relative;
+	display:flex;
+	margin-top:-12%;
+}
+#gallery_center{
+	font-size:400%;
+	font-family:Arial;
+	color:blue;
+	margin:auto;
+}
+.row_6{
+	position:relative;
+	width:100%;
+	height:33%;
+	top:-87%;
+}
+
+.image{
+	width:22%;
+	height:100%;
+	float:left;
+}
+
+.image img{
+	max-width:100%;
+	max-height:100%;
+}
+
+#image1{
+	border-radius:10%;
+	background-image:url("1.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:2.4%;
+}
+
+#image2{
+	border-radius:10%;
+	background-image:url("2.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:26.8%;
+}
+
+#image3{
+	border-radius:10%;
+	background-image:url("3.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:51.2%;
+}
+
+#image4{
+	border-radius:10%;
+	background-image:url("4.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:75.6%;
+}
+
+#image1_in{
+	position:relative;
+	display:none;
+	left:110%;
+	width:265.5%;
+	height:230%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;
+}
+
+.image img{
+	height:100%;
+	width:100%;
+	border-radius:30px;
+}
+
+
+#image2_in{
+	position:relative;
+	display:none;
+	width:265.5%;
+	height:230%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;	
+}
+
+
+#image3_in{
+	position:relative;
+	left:-110%;
+	display:none;
+	width:265.5%;
+	height:230%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;
+}
+
+
+#image4_in{
+	position:relative;
+	left:-220%;
+	display:none;
+	width:265.5%;
+	height:230%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;
+}
+
+
+
+
+
+
+.row_7{
+	position:relative;
+	width:100%;
+	height:33%;
+	top:-85%;
+}
+#image5{
+	border-radius:10%;
+	background-image:url("5.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:2.4%;
+}
+
+#image6{
+	border-radius:10%;
+	background-image:url("6.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:26.8%;
+}
+
+#image7{
+	border-radius:10%;
+	background-image:url("7.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:51.2%;
+}
+
+#image8{
+	border-radius:10%;
+	background-image:url("8.jpg");
+	background-size:100% 100%;
+	position:absolute;
+	left:75.6%;
+}
+
+#image5_in{
+	position:relative;
+	display:none;
+	left:110%;
+	bottom:105%;
+	width:265.5%;
+	height:230%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;
+}
+
+
+#image6_in{
+	position:relative;
+	display:none;
+	width:265.5%;
+	height:230%;
+	bottom:105%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;	
+}
+
+
+#image7_in{
+	position:relative;
+	left:-110%;
+	bottom:105%;
+	display:none;
+	width:265.5%;
+	height:230%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;
+}
+
+
+#image8_in{
+	position:relative;
+	left:-220%;
+	bottom:105%;
+	display:none;
+	width:265.5%;
+	height:230%;
+	box-shadow: -33px 14px 2px 4px rgba(0, 0, 0, 0.51);
+	border:2px solid black;	
+	border-radius:30px;
+}
+.row_9{
+	position:relative;
+	top:-78%;
+	background-color: #79e0cf;
+	background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+	border-radius: 15px;
+	width:100%;
+	height:20%;
+	display:flex;
+}
+
+.row_9 p{
+	margin:auto;
+	color:black;
+	font-size:400%;
+	font-family:Arial;
+	padding:10px;
+}
+	
+	
+.row_10{
+	width:100%;
+	height:50%;
+	position:relative;
+	border-radius: 15px;
+	background-color: #294966;;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+	top:-75%;
+}
+
+#row10_left{
+	align-content: center;
+	position:absolute;
+	background-color: #244233;
+background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+	border-radius: 15px;
+	top:4%;	
+	left:4%;
+	height:90%;
+	width:30%;
+	
+}
+#row10_center{
+	position:absolute;
+	border-radius: 15px;
+	top:16%;
+	left:7%;
+	height:90%;
+	width:31%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contact_details textarea{
+	width:60%;
+	height:40%;
+}
+#contact_details{
+	position:relative;
+	left:9%;
+	top:30%;
+}
+
+#row10_right{
+	background-color: #244233;
+background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+	position:absolute;
+	scroll-padding:2px;
+	border-radius: 15px;
+	top:4%;	
+	right:4%;
+	height:90%;
+	width:30%;
+}
+#contact_det{
+	position:relative;
+	left:7%;
+	font-size:130%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#address{
+	padding-left:25%;
+}
+
+
+.row_11{
+	position:relative;
+	width:100%;
+	height:5%;
+	top:-77%;
+	
+}
+	
+.row_12{
+	width:100%;
+	height:30%;
+	position:relative;
+	background-color: #bc4ec2;
+	background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");;
+	top:-75%;
+	display:flex;
+}
+
+.icons{
+	width:25%;
+	height:100%;
+	float:left;
+}
+
+.icon_container{
+	margin:auto;
+	width:20%;
+	height:30%;
+}
+
+.icons img{
+	width:100%;
+	height:100%;
+}
+
+.icons:hover{
+	opacity:0.7;
+	background-color:#FFD700;
+	border-radius:10%;
+}
+
+#copyright{
+	position:absolute;
+	text-align:center;
+	bottom:5%;
+	bottom:10%;
+	left:40.9%;
+	font-size:120%;
+	font-family:Abadi;
+	color:#FF4500;
+}
+
